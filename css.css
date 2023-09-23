@@ -1,12 +1,89 @@
-#title {
-   text-align: center;
+
+
+#headText a:hover {
+   color:green;
 }
+
+#HTML a:link {
+   color: blue;
+}
+#HTML a:visited {
+   color: red;
+}
+#HTML a:hover {
+   color: green;
+}
+#HTML a:active {
+   color: orange;
+}
+#HTML a {
+   text-decoration: none;
+}
+
+#CSS a:link {
+   color: blue;
+}
+#CSS a:visited {
+   color: red;
+}
+#CSS a:hover {
+   color: green;
+}
+#CSS a:active {
+   color: orange;
+}
+#CSS a {
+   text-decoration: none;
+}
+
+#JS a:link {
+   color: blue;
+}
+#JS a:visited {
+   color: red;
+}
+#JS a:hover {
+   color: green;
+}
+#JS a:active {
+   color: orange;
+}
+#JS a {
+   text-decoration: none;
+}
+
+#jsCurrent {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
+#cssCurrent {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
+#htmlCurrent {
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 20px;
+}
+
 
 #body {
    display: grid;
    grid-template-columns: minmax(150px, auto) 1fr;
-   grid-template-rows: minmax(800px, auto) minmax(50px, auto);
+   grid-template-rows: minmax(100px, auto) minmax(50px, auto);
 }
+
+#title {
+   font-size: 200%;
+   text-align: center;
+
+}
+#headText a {
+   text-decoration: none;
+   color: chartreuse;
+}
+
 
 #leftList {
    border-right: 1px solid black;
